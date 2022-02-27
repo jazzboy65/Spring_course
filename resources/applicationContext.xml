@@ -9,12 +9,17 @@
 
 
     <bean id="myPet"
-          class="spring_introduction.Cat">
+          class="spring_introduction.Dog">
     </bean>
 
     <bean id="myPerson"
           class="spring_introduction.Person">
-        <constructor-arg ref = "myPet"/>
+        <property name="pet" ref="myPet"/>
+        <!--        <constructor-arg ref = "myPet"/>-->
+        <property name="surname" value="Gordeev"/>
+        <property name="age" value="32"/>
+
+
     </bean>
 
 </beans>
