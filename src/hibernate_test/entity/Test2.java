@@ -1,6 +1,5 @@
 package hibernate_test.entity;
 
-import hibernate_test.entity.Employee;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;

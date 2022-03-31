@@ -1,6 +1,5 @@
 package hibernate_test.entity;
 
-import hibernate_test.entity.Employee;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
@@ -15,8 +14,8 @@ public class Test5 {
             Session session = factory.getCurrentSession();
             session.beginTransaction();
 
-//            Employee emp = session.get(Employee.class, 1);
-//            session.delete(emp);
+            Employee emp = session.get(Employee.class, 1);
+            session.delete(emp);
 
             session.createQuery("delete Employee " +
                     "where name = 'Alex'").executeUpdate();
