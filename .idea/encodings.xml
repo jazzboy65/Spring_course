@@ -5,10 +5,13 @@
     <file url="file://$PROJECT_DIR$/src/aop/Book.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/aop/SchoolLibrary.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/aop/Test1.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/aop/Test2.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/aop/UniLibrary.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/aop/University.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/aop/aspects/ExceptionHandlingAspect.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/aop/aspects/LoggingAspect.java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/aop/aspects/SecurityAspect.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/aop/aspects/UniversityLoggingAspect.java" charset="UTF-8" />
     <file url="PROJECT" charset="windows-1251" />
   </component>
 </project>
